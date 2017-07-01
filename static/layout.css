@@ -1,0 +1,14 @@
+.primary {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 0rem 1rem;
+}
+
+hr {
+  background: none;
+  width: 100%;
+  height: 0;
+  border: none;
+  border-bottom: dashed #ccc 0.1rem;
+  margin: 1rem 0;
+}

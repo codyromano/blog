@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Hind+Vadodara');
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab');
+
+a {
+  color: #d35400;
+  text-decoration: none;
+}
+
+* {
+  font-family: 'Zilla Slab', serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Hind Vadodara', sans-serif;
+  color: #2980b9;
+}
+
+h1 + .fancy-first-letter:first-letter, h2 + .fancy-first-letter:first-letter {
+  font-weight: bold;
+  font-size: 2rem;
+  padding-right: 0.25rem;
+  position: absolute;
+  top: 0.5rem;
+}
+
+blockquote {
+  color: #2980b9;
+  padding-left: 1rem;
+  margin-left: 2rem;
+  position: relative;
+  display: block;
+  border-left: solid #eee 0.1rem;
+  margin-bottom: 1rem;
+}
+
+p, a, ul, ol, li {
+  font-size: 1.15rem;
+  text-rendering: optimizeLegibility;
+  line-height: 200%;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 30rem) {
+  p, a, ul, ol, li {
+    line-height: 160%;
+  }
+  blockquote {
+      margin-left: 1rem;
+  }
+}

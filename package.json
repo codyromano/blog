@@ -1,0 +1,29 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Blog on my personal website",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=PROD node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codyromano/blog.git"
+  },
+  "author": "Cody Romano",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/codyromano/blog/issues"
+  },
+  "homepage": "https://github.com/codyromano/blog#readme",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "express-markdown": "0.0.6",
+    "markdown-serve": "^0.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-plugin-react": "^7.1.0"
+  }
+}
