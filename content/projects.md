@@ -1,3 +1,3 @@
 # Projects
 
-[Fit Bank](/fit-bank/)
+- [FitBank](/blog/blending-food-and-money-fit-bank)
